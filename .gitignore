@@ -1,0 +1,11 @@
+# Local configuration — real machine/seat IDs never belong in the repo
+config.local.json
+*.local.json
+
+# Registrar state and audit logs are private by design
+*state*.json
+*.audit.jsonl
+
+# Python caches
+__pycache__/
+*.pyc
